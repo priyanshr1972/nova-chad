@@ -1,0 +1,58 @@
+/* HorizontalNav.css */
+
+.horizontal-navbar {
+    background-color: #3f8dc3;
+    color: #fff;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .horizontal-navbar-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .left-section {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .horizontal-nav-item {
+    font-size: 14px;
+  }
+  
+  .right-section {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .horizontal-nav-link {
+    color: #fff;
+    font-size: 18px;
+    transition: color 0.2s ease-in-out;
+  }
+  
+  .horizontal-nav-link:hover {
+    color: #f1c40f;
+  }
+  
+  /* Social media icons */
+  .horizontal-nav-link i {
+    transition: color 0.2s ease-in-out;
+  }
+  
+  .horizontal-nav-link:hover i {
+    color: #f1c40f;
+  }
+  
